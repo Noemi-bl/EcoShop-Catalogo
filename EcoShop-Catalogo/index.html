@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>EcoShop 🌱</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect"
+  href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+  rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="header">
+
+    <div class="logo">
+
+      <h1>🌱 EcoShop</h1>
+
+      <p>
+        Catálogo Interactivo Inteligente
+      </p>
+
+    </div>
+
+    <button id="modoOscuro" class="dark-btn">
+      🌙
+    </button>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <h2>
+      Descubre Productos Modernos
+    </h2>
+
+    <p>
+      Compra artículos tecnológicos,
+      hogar y deportes con una
+      experiencia elegante y dinámica.
+    </p>
+
+  </section>
+
+  <!-- CONTROLES -->
+
+  <section class="controles">
+
+    <!-- BUSCADOR -->
+
+    <div class="buscador-box">
+
+      <input
+      type="text"
+      id="buscador"
+      placeholder="🔍 Buscar producto...">
+
+    </div>
+
+    <!-- FILTROS -->
+
+    <div class="filtros">
+
+      <button onclick="filtrar('todos')">
+        Todos
+      </button>
+
+      <button onclick="filtrar('tecnologia')">
+        Tecnología
+      </button>
+
+      <button onclick="filtrar('hogar')">
+        Hogar
+      </button>
+
+      <button onclick="filtrar('deportes')">
+        Deportes
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- ESTADÍSTICAS -->
+
+  <section id="stats" class="stats">
+
+  </section>
+
+  <!-- CONTENIDO -->
+
+  <main class="contenedor">
+
+    <!-- GRID PRODUCTOS -->
+
+    <section id="grid" class="grid-productos">
+
+    </section>
+
+    <!-- DETALLE -->
+
+    <aside id="detalle" class="detalle">
+
+      <h2>
+        Información del Producto
+      </h2>
+
+      <p>
+        Selecciona una tarjeta para
+        visualizar los detalles.
+      </p>
+
+    </aside>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <p>
+      © 2026 EcoShop Dashboard |
+      Proyecto Web con JavaScript
+    </p>
+
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
